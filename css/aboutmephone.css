@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 100px 0 0 0;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,"Helvetica Neue",Arial,sans-serif;
+}
+
+
+a{
+	text-decoration: none;
+	letter-spacing: 1.5px;
+}
+
+.header{
+	min-height: 66px;
+	margin: 0 50px 30px 50px;
+}
+
+.webtitle{
+	float: left;
+	height: auto;
+	
+}
+
+.webtitle p{
+	line-height: 66px;
+	margin: 0;
+	font-family: 'Noto Serif SC', serif;
+	font-size: 70px;
+	font-weight: 900;
+}
+
+.headerselbar{
+	display: none;
+	
+}
+
+
+body img{
+	width: 500px;
+}
+
+body p{
+	margin: 10px 0;
+}
+
+.headpicandinfo{
+	margin: 50px 60px 0 60px;
+}
+
+.myinfo{
+	display: block;
+	position: absolute;
+	margin-top: -450px;
+	margin-left: 450px;
+	background-color: #F7f7f7;
+	padding: 30px;
+}
+
+
+.name{
+	font-size: 70px;
+}
+.work{
+	font-size: 30px;
+}
+.study{
+	position: relative;
+	top: 50px;
+	padding: 20px 60px 20px 60px;
+	background: #f9f9f9;
+}
+.study div{
+	margin-right: 80px;
+	margin-bottom: 50px;
+	padding-left: 50px;
+}
+
+.study a{
+	text-decoration:underline;
+	color: #000000;
+}
+
+.study p{
+	margin-left: 50px;
+}
+.study h1{
+	color: #000000;
+}
+
+.skill{
+	display: none;
+}
+
+
+.skilllist{
+	height: 190px;
+	position: relative;
+	margin: 50px 60px 50px 60px;
+}
+
+
+.skilllist p{
+	font-size: 30px;
+}
+
+.skilllist div div{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: auto;
+	float: left;
+	background: #f9f9f9;
+	padding: 0 20px;
+	border-radius: 10px;
+}
+
+.menubut{
+	width: 60px;
+	
+	float: right;
+	margin-top: 10px;
+}
+
+.menubut img{
+	width: 100%;
+}
+.menu-sel{
+	background: #f7f7f7;
+	width: 100%;
+	text-align: center;
+	display: none;
+	padding: 10px 0 20px 0;
+}
+
+.menu-sel li{
+	font-size: 40px;
+	padding: 40px;
+	list-style-type: none;
+}
+
+.menu-sel a{
+	color:#9B9B9B;
+}
+

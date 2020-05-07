@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #ffffff;
+	margin: 0;
+	text-align: center;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,"Helvetica Neue",Arial,sans-serif;
+}
+a{
+	color:#000000;
+	text-decoration: none;
+}
+.header{
+	display: none;
+}
+.header-logo{
+	width: 150px;
+	position: absolute;
+	left: 0;
+	top: 45px;
+}
+.header-mp{
+	width: 100%;
+	position: fixed;
+	border-bottom: 1px solid #eeeeee;
+	background: #ffffff;
+	z-index: 99;
+
+}
+.header-mp .slider{
+	padding-right: 50px;
+	margin-left: 165px;
+	height: 180px;
+
+	overflow-y: hidden;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+.slider::-webkit-scrollbar{
+	display: none;
+}
+.slider a{
+	width: 165px;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+}
+.header-mp a{
+
+}
+.righr-cover{
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 80px;
+	background-image: linear-gradient(to right,rgba(255,255,255,0),#fff);
+	z-index: 99;
+}
+.header-mp .selector img{
+	margin-top: 40px;
+	width:60%;
+}
+.header-mp a div p{
+	font-size: 35px;
+	color: #9b9b9b;
+	margin-top: 65px;
+}
+.selbar{
+	position: absolute;
+	width: 60%;
+	margin: 0 20%;
+	bottom: -1px;
+	height: 8px;
+	background: #424242;
+}
+.apppart{
+	display: none;
+}
+
+
+.apptitlebg{
+	padding-top: 60px;
+	border-bottom: 1px solid #eeeeee;
+	top: 0px;
+	left: 0;
+	background: #f7f7f7;
+	border-bottom: 1px solid #eeeeee;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	animation: openapptitle 1s forwards;
+}
+
+@keyframes openapptitle{
+	from{height: 0}
+	to{height: 520px}
+}
+
+
+.app{
+	background: #FFFFFF;
+	width: 180px;
+	height: 270px;
+	text-align:center;
+	border-radius: 20px;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.05);
+	margin: 180px 20px 100px 20px;
+	display: inline-block;
+}
+
+
+.appname-cn{
+	font-size: 25px;
+	margin: 15px 0 0 0;
+}
+
+
+.appname-en{
+	margin: 0;
+	color: #aaaaaa;
+	font-size: 15px
+}
+
+.app img{
+	margin: 50px 15px 0 15px;
+	height: 100px;
+}
+
+
+.appdetail{
+	width: 100%;
+	overflow: hidden;
+}
+
+.appdetailimg{
+	width: 100%;
+	display: block;
+}
+
+.totop{
+	display: none;
+}
+
+.onloading{
+	position: absolute;
+	bottom: -1px;
+	height: 5px;
+	background: -webkit-linear-gradient(left,red, blue);
+	z-index: 99;
+	animation: loading 2s infinite ease-in-out;
+	width: 150%;
+
+}
+
+.header-mp .selector svg{
+	margin-top: 45px;
+}
+
+.scrollimg{
+	animation: scrollanimat 45s linear infinite;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 1500px;
+}
+
+
+@keyframes loading{
+	/*0%{width: 0%;margin-left: 0;}
+	50%{width: 100%;margin-left: 0;}
+	100%{width: 0%;margin-left: 100%;}*/
+	from{transform: translateX(-100%)}
+	to{transform: translateX(100%)}
+
+}
+
+@keyframes scrollanimat{
+	0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+	100% {
+    -webkit-transform: translate3d(-15450px, 0, 0);
+    transform: translate3d(-15450px, 0, 0);
+}
+}
+
+
+.gif{
+	position: relative;
+}
+
+.gif p{
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+	font-size: 30px;
+	color: #ffffff;
+	border-radius: 10px;
+	background: #000000;
+	padding: 10px 20px;
+	opacity: 0.3;
+}

@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 100px 0 0 0;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,"Helvetica Neue",Arial,sans-serif;
+}
+
+
+a{
+	text-decoration: none;
+	letter-spacing: 1.5px;
+}
+
+.header{
+	min-height: 66px;
+	margin: 0 50px 30px 50px;
+}
+
+.webtitle{
+	float: left;
+	height: auto;
+	
+}
+
+.webtitle p{
+	line-height: 66px;
+	margin: 0;
+	font-family: 'Noto Serif SC', serif;
+	font-size: 70px;
+	font-weight: 900;
+}
+
+.headerselbar{
+	display: none;
+	
+}
+
+.menubut{
+	width: 60px;
+	
+	float: right;
+	margin-top: 10px;
+}
+
+.menubut img{
+	width: 100%;
+}
+.menu-sel{
+	background: #f9f9f9;
+	width: 100%;
+	text-align: center;
+	display: none;
+	padding: 10px 0 20px 0;
+}
+
+.menu-sel li{
+	font-size: 40px;
+	padding: 40px;
+	list-style-type: none;
+}
+
+.menu-sel a{
+	color: #9B9B9B;
+}
+
+
+.contactinfo{
+	margin-top: 30%;
+	width: 100%;
+	text-align: center;
+}
+
+.contacttitle{
+	font-weight: 900;
+	font-size: 60px;
+	margin: 0;
+}
+
+.context{
+	font-size: 40px;
+	margin: 20px 0 80px 0;
+}

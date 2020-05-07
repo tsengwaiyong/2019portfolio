@@ -1,0 +1,116 @@
+body{
+  text-align: left;
+}
+
+
+.pagedot{
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -80px;
+  height: 3px;
+  width: 30px;
+  background-color: #000000;
+  transition: margin-left 0.3s;
+}
+
+.page_work:hover ~ .pagedot{
+  margin-left: -163px;
+}
+
+.content{
+  margin: 50px 100px;
+}
+
+.mycontent{
+	display: flex;
+	height: 350px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.headpicandinfo img{
+	height: 100%;
+}
+
+.headpicandinfo{
+	display: flex;
+	width: 600px;
+}
+
+.myinfo{
+	height: 100%;
+	padding: 20px 50px 0 50px;
+	width: 500px;
+}
+
+
+
+.name{
+  margin: 0;
+	font-weight: 900;
+	font-size: 50px;
+}
+.work{
+	font-size: 30px;
+}
+
+.skilllist{
+	width: 470px;
+	margin-left: 200px;
+	padding: 20px 50px 0 20px;
+}
+
+
+.skilllist h1{
+	margin: 20px 0 30px 0;
+}
+
+.skill{
+	width: 300px;
+	height: 20px;
+	background: #EEEEEE;
+	margin-bottom: 20px;
+
+}
+
+.skill div{
+	height: 100%;
+	background: #424242;
+}
+
+.skilllist div div{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: auto;
+	float: left;
+	background: #f9f9f9;
+	padding: 0 20px;
+	border-radius: 10px;
+}
+
+
+.study{
+	margin-top: 100px;
+	background: #f7f7f7;
+}
+
+.study h1{
+	margin: 0;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+.study a{
+  color: #777777;
+}
+
+.studyhistory{
+	display: flex;
+	height: 250px;
+	padding: 10px 40px 30px 40px;
+	background: #f7f7f7;
+}
+
+.studyhistory div{
+  margin-right: 100px;
+}

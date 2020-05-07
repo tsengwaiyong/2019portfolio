@@ -1,0 +1,63 @@
+	
+
+.tab {
+	position: relative;
+	top: 5px;
+	float: right;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.tab .bars {
+     position: relative;
+    top: 30px;
+    left:18px;
+    width: 60px;
+    height: 60px
+}
+.tab .bars span {
+    position: absolute;
+    display: block;
+    width: 56px;
+    height: 6px;
+    margin-left: -13px;
+    margin-top: -1px;
+    background-color: #424242;
+    -webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+.tab .bars span:first-child {
+	margin-top: -17px;
+	
+}
+.tab .bars span:nth-child(2) {
+    -webkit-transition-delay: 0.075s;
+    transition-delay: 0.075s;
+}
+.tab .bars span:last-child {
+	margin-top: 15px;
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.tab.active .bars span {
+    width: 0;
+}
+.tab.active .bars span:first-child {
+	margin-top: 0px;
+    width: 56px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.tab.active .bars span:last-child {
+	margin-top: 0px;
+    width: 56px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+

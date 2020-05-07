@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+
+	margin: 0;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,"Helvetica Neue",Arial,sans-serif;
+	background: #fafafa
+}
+a{
+	color:#424242;
+	text-decoration: none
+}
+
+.apppart{
+	display: none;
+	/*position: fixed;
+	right: 10px;*/
+}
+
+/*
+.part1{
+	margin-top: 75px;
+	cursor: pointer;
+}
+
+.apppart p{
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 15px;
+	color: 424242;
+}
+
+.part2{
+	margin-top: 185px;
+	cursor: pointer;
+}
+
+.part3{
+	margin-top: 185px;
+	cursor: pointer;
+}
+
+.part4{
+	margin-top: 105px;
+	cursor: pointer;
+}
+
+*/
+
+.appdetail{
+	padding: 100px 0;
+	width: 1080px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+
+}
+
+.appdetailimg{
+	width: 100%;
+	display: block;
+}
+.classifition{
+	position: absolute;
+	top: 14700px;
+	max-width: 259px;
+}
+
+.apptitle{
+	margin-top: 100px;
+	animation: openapptitleitem 1s forwards;
+	width: 100%;
+	white-space: nowrap;
+	text-align: center;
+
+}
+
+.app{
+	background: #FFFFFF;
+	width: 300px;
+	height: 100px;
+	text-align:left;
+	border-radius: 15px;
+	margin: 0px 10px 100px 10px;
+	display: inline-block;
+	cursor: pointer;
+	transition: 0.5s;
+
+
+}
+
+.app:hover{
+	box-shadow: 0 25px 40px 0px rgba(0,0,0,0.1);
+}
+
+.appname-cn{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 20px;
+	display: inline;
+}
+
+.appname-en{
+	position: absolute;
+	margin-top: 55px;
+	margin-left: 20px;
+	font-size: 10px;
+	color: #aaaaaa;
+	display: inline;
+}
+.app img{
+	margin: 15px 15px;
+	height: 70px;
+}
+
+.apptitlebg{
+	background: #f7f7f7;
+	border-bottom: 1px solid #eeeeee;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+	animation: openapptitle 1s forwards;
+
+
+}
+
+@keyframes openapptitle{
+	from{height: 0}
+	to{height: 320px}
+}
+
+@keyframes openapptitleitem{
+	from{padding-top: 0}
+	to{padding-top: 50px}
+}
+
+.totop{
+	bottom: 20px;
+	right: 20px;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	position: fixed;
+	z-index: 99;
+	transition: all 0.3s;
+	background: #eeeeee;
+	cursor: pointer;
+}
+
+.totop:hover img{
+	transform: translateY(-15px);
+}
+
+
+.totop img{
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	transition: all 0.5s;
+}
+
+.scrollimg{
+	animation: scrollanimat 45s linear infinite;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 500px;
+}
+
+
+@keyframes scrollanimat{
+	0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+	100% {
+    -webkit-transform: translate3d(-5150px.5px, 0, 0);
+    transform: translate3d(-5150px, 0, 0);
+}
+}

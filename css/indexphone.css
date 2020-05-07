@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 100px 0 0 0;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,"Helvetica Neue",Arial,sans-serif;
+}
+
+
+a{
+	text-decoration: none;
+	letter-spacing: 1.5px;
+}
+
+.header{
+	min-height: 66px;
+	margin: 0 50px 50px 50px;
+}
+
+.webtitle{
+	display: flex;
+	white-space: nowrap;
+	float: left;
+	height: auto;
+	
+}
+
+.webtitle p{
+	line-height: 66px;
+	margin: 0;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 70px;
+	font-weight: 900;
+}
+
+.headerselbar{
+	display: none;
+	
+}
+
+.piclist{
+	padding: 0;
+	margin: 0;
+}
+
+.pics{
+	position: relative;
+	float: left;
+	margin: 30px 0 50px 0 ;
+	overflow: hidden;
+	border: 1px solid #eeeeee;
+	list-style: none;
+	box-shadow: 0px 5px 20px 0px rgba(0,0,0,.05);
+	background: #f7f7f7;
+	width: 100%;
+	min-height: 650px;
+}
+
+.pics img{
+	background: #f9f9f9;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+
+.pics a{
+	color: #424242;
+	text-align: center;
+}
+
+
+.fg{
+	background-color: #000000;
+	position:absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 99%;
+	opacity: 0;
+	text-align: center;
+	padding: 0;
+	transition: all 0.5s;
+	z-index: 2;
+	
+}
+
+.tag{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	color: #424242;
+	z-index: 99;
+	background: #ffffff;
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+.totop{
+	display: none;
+}
+
+
+.footer{
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-top: 30px;
+	padding: 50px 0px;
+	background: #f7f7f7;
+	
+}
+
+
+.footer p{
+	margin-top: 5px;
+	font-size: 15px;
+	color: #dddddd;
+}
+
+.footer a{
+	transition: all 0.5s;
+	color: #dddddd;
+	text-decoration: underline;
+}
+
+.footer img{
+	margin-right: 20px;
+	width: 80px;
+}
+
+.menubut{
+	width: 60px;
+	
+	float: right;
+	margin-top: 10px;
+}
+
+.menubut img{
+	width: 100%;
+}
+.menu-sel{
+	background: #f7f7f7;
+	width: 100%;
+	text-align: center;
+	display: none;
+	padding: 10px 0 20px 0;
+}
+
+.menu-sel li{
+	font-size: 40px;
+	padding: 40px;
+	list-style-type: none;
+}
+
+.menu-sel a{
+	color:#9B9B9B;
+}
+
