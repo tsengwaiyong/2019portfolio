@@ -200,3 +200,7 @@ a{
 	padding: 10px 20px;
 	opacity: 0.3;
 }
+
+.animatedintopage{
+	position: relative;
+}

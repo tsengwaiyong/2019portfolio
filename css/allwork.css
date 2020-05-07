@@ -191,45 +191,7 @@ body{
 	to{transform: translateX(100%)}
 
 }
-.gif{
-	position: relative;
-}
 
-
-
-
-.gif p{
-	position: absolute;
-	color: #ffffff;
-	border-radius: 5px;
-	bottom: 5px;
-	left: 20px;
-	background-color: #000000;
-	padding: 5px 10px;
-	opacity: 0.3;
-}
-
-.gridpic{
-	display: flex;
-}
-
-.gridpic .gif img{
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.animatedintopage{
-	position: relative;
-}
-
-.animatedintopage .gif{
-	position: absolute;
-}
-
-.animatedintopage .gif .appdetailimg {
-	width: 300px;
-}
 /*
 .work-list{
 	width: 100%;
