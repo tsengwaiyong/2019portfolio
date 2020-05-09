@@ -1,0 +1,46 @@
+.gif-with-phone{
+  position: absolute;
+  width: 270px;
+}
+.animatedintopage .gif-with-phone:nth-child(1){
+	top:415px;
+  left:55px
+}
+
+.animatedintopage .gif-with-phone:nth-child(2){
+  top:1400px;
+  left:180px;
+}
+
+.animatedintopage .gif-with-phone:nth-child(3){
+  top:3130px;
+  left:380px;
+}
+
+.animatedintopage .gif-with-phone:nth-child(4){
+  top:6500px;
+  left:350px;
+}
+
+.animatedintopage .gif-with-phone:nth-child(5){
+  width: 150px;
+  top:6650px;
+  left:710px;
+}
+
+
+.animatedintopage .gif-with-phone:nth-child(6){
+  top:7880px;
+  left:185px;
+}
+
+.animatedintopage .gif-with-phone:nth-child(7){
+  top:9730px;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.animatedintopage .gif-with-phone:nth-child(8){
+  top:7240px;
+  left:600px;
+}
