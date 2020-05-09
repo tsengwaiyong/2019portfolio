@@ -36,12 +36,17 @@
 
 
 .animatedintopage .gif-with-phone:nth-child(7){
-  top:7780px;
-  left:150px;
+  top:7880px;
+  left:185px;
 }
 
 .animatedintopage .gif-with-phone:nth-child(8){
   top:9730px;
   left:50%;
   transform:translateX(-50%);
+}
+
+.animatedintopage .gif-with-phone:nth-child(9){
+  top:7240px;
+  left:600px;
 }
