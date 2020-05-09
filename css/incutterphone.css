@@ -18,35 +18,29 @@
 }
 
 .animatedintopage .gif-with-phone:nth-child(4){
-  width: 150px;
-  top:3280px;
-  left:750px;
-}
-
-.animatedintopage .gif-with-phone:nth-child(5){
   top:6500px;
   left:350px;
 }
 
-.animatedintopage .gif-with-phone:nth-child(6){
+.animatedintopage .gif-with-phone:nth-child(5){
   width: 150px;
   top:6650px;
   left:710px;
 }
 
 
-.animatedintopage .gif-with-phone:nth-child(7){
+.animatedintopage .gif-with-phone:nth-child(6){
   top:7880px;
   left:185px;
 }
 
-.animatedintopage .gif-with-phone:nth-child(8){
+.animatedintopage .gif-with-phone:nth-child(7){
   top:9730px;
   left:50%;
   transform:translateX(-50%);
 }
 
-.animatedintopage .gif-with-phone:nth-child(9){
+.animatedintopage .gif-with-phone:nth-child(8){
   top:7240px;
   left:600px;
 }
