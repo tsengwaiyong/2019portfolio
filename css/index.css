@@ -14,6 +14,10 @@ a{
   padding: 0 100px;
 }
 
+.headerbar svg{
+  display: none;
+}
+
 .websitetitle{
 	font-family: 'Noto Serif SC';
   margin: 0 80px 0 0;
@@ -61,7 +65,9 @@ a{
   margin-bottom: -5px;
 }
 
-
+.moreoption{
+  display: none;
+}
 
 .bodycontent{
   width: 100%;
