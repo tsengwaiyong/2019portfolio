@@ -13,39 +13,7 @@ a{
 
 .apppart{
 	display: none;
-	/*position: fixed;
-	right: 10px;*/
 }
-
-/*
-.part1{
-	margin-top: 75px;
-	cursor: pointer;
-}
-
-.apppart p{
-	position: absolute;
-	margin-top: 3px;
-	margin-left: 15px;
-	color: 424242;
-}
-
-.part2{
-	margin-top: 185px;
-	cursor: pointer;
-}
-
-.part3{
-	margin-top: 185px;
-	cursor: pointer;
-}
-
-.part4{
-	margin-top: 105px;
-	cursor: pointer;
-}
-
-*/
 
 .appdetail{
 	padding: 100px 0;

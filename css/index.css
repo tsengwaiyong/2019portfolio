@@ -117,6 +117,10 @@ a{
   transition: filter 0.3s;
 }
 
+.blockbg-mb{
+  display: none;
+}
+
 
 .aftershow-text:hover + .blockbg{
   filter: blur(20px);
